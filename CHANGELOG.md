@@ -1,7 +1,14 @@
-# Change Log
-All notable changes to the "monokai-neo" extension will be documented in this file.
+## Version 0.0.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+* Initial release
 
-## [Unreleased]
-- Initial release
+## Version 0.0.2
+
+* Add Theme Tags
+
+## Version 0.0.3
+
+* Change statusBar Background
+
+
+

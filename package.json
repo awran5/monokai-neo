@@ -1,31 +1,43 @@
 {
-    "name": "monokai-neo",
-    "displayName": "Monokai Neo",
-    "description": "A new touch of Monokai Theme",
-    "version": "0.0.1",
-    "publisher": "awran5",
-    "engines": {
-        "vscode": "^1.25.0"
-    },
-    "icon": "icon.png",
-    "repository": {
-    	"url": "https://github.com/awran5/monokai-neo",
-    	"type": "git"
-    },
-    "bugs": {
+	"name": "monokai-neo",
+	"displayName": "Monokai Neo",
+	"description": "A new touch of Monokai Theme",
+	"version": "0.0.3",
+	"publisher": "awran5",
+	"engines": {
+		"vscode": "^1.25.0"
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"monokai",
+		"theme",
+		"dark",
+		"neo"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Neo",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Neo-color-theme.json"
+			}
+		]
+	},
+	"homepage": "https://github.com/awran5/monokai-neo",
+	"repository": {
+		"url": "https://github.com/awran5/monokai-neo",
+		"type": "git"
+	},
+	"bugs": {
 		"url": "https://github.com/awran5/monokai-neo/issues"
 	},
 	"license": "MIT",
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai Neo",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Monokai Neo-color-theme.json"
-            }
-        ]
-    }
+	"categories": [
+		"Themes"
+	],
+	"__metadata": {
+		"id": "2ac7e80e-3b54-44f2-9567-c9b5866aa8f9",
+		"publisherId": "156072b1-970c-49b2-b632-868623bcc06c",
+		"publisherDisplayName": "awran5"
+	}
 }
