@@ -25,4 +25,4 @@ This theme is released under the [MIT License](https://github.com/awran5/monokai
 
 There's also an VS Code version of this theme [here](https://github.com/awran5/monokai-neo/blob/sublime-text-3/).
 
-**Enjoy!**
+**Enjoy!** 
