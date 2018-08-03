@@ -7,7 +7,8 @@
 
 ## How to apply?
 
-Open Sublime text and go to `Preferences > Browse Packages` and just copy/paste the `Themes` folder. 
+Open Sublime text and go to `Preferences > Browse Packages` and just copy/paste the `Themes` folder.
+
 If you have this folder already, just copy/paste the `monokai-neo.tmTheme` file into it.
 
 
@@ -23,6 +24,6 @@ This theme is released under the [MIT License](https://github.com/awran5/monokai
 
 [Aziz - tmTheme-Editor](https://github.com/aziz/tmTheme-Editor)
 
-There's also an VS Code version of this theme [here](https://github.com/awran5/monokai-neo/blob/sublime-text-3/).
+There's also an VS Code version of this theme [here](https://github.com/awran5/monokai-neo/).
 
 **Enjoy!** 
