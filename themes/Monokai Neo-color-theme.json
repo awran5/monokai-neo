@@ -286,10 +286,10 @@
 		"editorWhitespace.foreground": "#3B3A32",
 		"editor.lineHighlightBackground": "#333333",
 		"editor.selectionBackground": "#333333",
-		"statusBarItem.hoverBackground": "#222222", 
+		"statusBar.background": "#111111", 
 		"statusBar.noFolderBackground": "#111111",
-		"statusBar.background": "#21252B",
 		"statusBar.foreground": "#999999",
+		"statusBarItem.hoverBackground": "#222222",
 		"editorIndentGuide.background": "#35353580",
 	},
 	"name": "Monokai Neo"
