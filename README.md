@@ -17,6 +17,6 @@ This theme is released under the [MIT License](https://github.com/awran5/monokai
 
 [Aziz - tmTheme-Editor](https://github.com/aziz/tmTheme-Editor)
 
-There's also an sublime text 3 version of this theme [here](https://github.com/awran5/monokai-neo/blob/master/).
+There's also an sublime text 3 version of this theme [here](https://github.com/awran5/monokai-neo/).
 
 **Enjoy!**
