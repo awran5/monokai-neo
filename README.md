@@ -7,7 +7,7 @@
 
 ## How to apply?
 
-Open Sublime text and go to `"Preferences > Browse Packages"` and just copy/paste the `"Themes"` folder.<br>
+Open Sublime text and go to `"Preferences > Browse Packages"` and copy/paste the `"Themes"` folder.<br>
 
 If you have this folder already, just copy/paste the `"monokai-neo.tmTheme"` file into it.
 
