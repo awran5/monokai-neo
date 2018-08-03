@@ -13,16 +13,16 @@ If you have this folder already, just copy/paste the `monokai-neo.tmTheme` file 
 
 ## What's new?
 
-Check theme [Changelog](https://github.com/awran5/monokai-neo/sublime-text-3/CHANGELOG.md)
+Check theme [Changelog](https://github.com/awran5/monokai-neo/blob/sublime-text-3/README.md)
 
 ## License
 
-This theme is released under the [MIT License](https://github.com/awran5/monokai-neo/sublime-text-3/LICENSE).
+This theme is released under the [MIT License](https://github.com/awran5/monokai-neo/blob/sublime-text-3/LICENSE).
 
 ## Credits
 
 [Aziz - tmTheme-Editor](https://github.com/aziz/tmTheme-Editor)
 
-There's also an VS Code version of this theme [here](https://github.com/awran5/monokai-neo/blob/master/).
+There's also an VS Code version of this theme [here](https://github.com/awran5/monokai-neo/blob/sublime-text-3/).
 
 **Enjoy!**
