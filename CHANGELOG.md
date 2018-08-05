@@ -10,5 +10,15 @@
 
 * Change statusBar Background
 
+## Version 0.0.4
+
+* Added: Markdown colors
+* Added: statusBar Background hover 
+
+## Version 0.0.5
+
+* Added: New preview images
+* Fixed: some Markdown scope missing
+ 
 
 
