@@ -1,8 +1,15 @@
 # Monokai Neo Theme
 
+## JavaScript
 ![monokai-neo-js-preview](https://raw.githubusercontent.com/awran5/monokai-neo/master/preview-js.png)
+
+## HTML
 ![monokai-neo-html-preview](https://raw.githubusercontent.com/awran5/monokai-neo/master/preview-html.png)
+
+## CSS
 ![monokai-neo-css-preview](https://raw.githubusercontent.com/awran5/monokai-neo/master/preview-css.png)
+
+## Markdown
 ![monokai-neo-markdown-preview](https://raw.githubusercontent.com/awran5/monokai-neo/master/preview-markdown.png)
 
 ***
