@@ -16,7 +16,8 @@
 			"scope": [
 				"string.quoted.single",
 				"string.quoted.double",
-				"string.template"
+				"string.template",
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#bfbf91"
@@ -26,7 +27,7 @@
 			"name": "Variable other readwrite",
 			"scope": "variable.other.readwrite",
 			"settings": {
-				"foreground": "#BBBBBB"
+				"foreground": "#CCC"
 			}
 		},
 		{
@@ -65,7 +66,10 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword",
+			"scope": [ 
+				"keyword",
+				"punctuation.definition.keyword"
+			],
 			"settings": {
 				"foreground": "#BA3E70"
 			}
@@ -126,7 +130,8 @@
 		{
 			"name": "Function name",
 			"scope": [
-				"meta.definition.function"
+				"meta.definition.function",
+				"meta.function.php"
 			],
 			"settings": {
 				"foreground": "#a4b551"
@@ -149,7 +154,10 @@
 		},
 		{
 			"name": "Tag name",
-			"scope": "entity.name.tag",
+			"scope": [
+				"entity.name.tag",
+				"entity.other.attribute-name.pseudo-element"
+			],
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#BA3E70"
@@ -172,28 +180,40 @@
 			}
 		},
 		{
+			"name": "Support function funchand",
+			"scope": [
+				"support.function.funchand"
+			],
+			"settings": {
+				"foreground": "#75c2d0"
+			}
+		},
+		{
+			"name": "Support type",
+			"scope": [
+				"support.type",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#75c2d0",
+				"fontStyle": "italic"
+			}
+		},	
+		{
 			"name": "Support variable",
 			"scope": [
 				"support.variable",
-				"variable.other",
-				"punctuation.accessor"
+				"variable.other"
 			],
 			"settings": {
-				"foreground": "#BBBBBB"
+				"foreground": "#CCC"
 			}
 		},
 		{
 			"name": "JSON key",
 			"scope": "support.type.property-name.json",
 			"settings": {
-				"foreground": "#75c2d0"
-			}
-		},
-		{
-			"name": "JSON String",
-			"scope": "string.quoted.double.json",
-			"settings": {
-				"foreground": "#BBBBBB"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -228,12 +248,35 @@
 			}
 		},
 		{
-			"name": "Punctuation dollar",
-			"scope": "punctuation.dollar",
+			"name": "Punctuation definition",
+			"scope": [
+				"punctuation.definition",
+				"punctuation.separator.delimiter",
+				"punctuation.section",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#CCC"
+			}
+		},
+		{
+			"name": "Punctuation jsdoc",
+			"scope": [
+				"punctuation.definition.block.tag",
+				"storage.type.class.jsdoc"
+			],
 			"settings": {
 				"foreground": "#BA3E70"
 			}
 		},
+		{
+			"name": "Entity name jsdoc",
+			"scope": "entity.name.type.instance.jsdoc",
+			"settings": {
+				"foreground": "#bfbf91"
+			}
+		},
+
 		{
 			"name": "Markdown section title hash",
 			"scope": [
@@ -247,14 +290,7 @@
 			"name": "Markdown section title",
 			"scope": "entity.name.section.markdown",
 			"settings": {
-				"foreground": "#E1E1E1"
-			}
-		},
-		{
-			"name": "Markdown paragraph",
-			"scope": "meta.paragraph.markdown",
-			"settings": {
-				"foreground": "#999999"
+				"foreground": "#B2C472"
 			}
 		},
 		{
@@ -277,19 +313,74 @@
 			"settings": {
 				"foreground": "#75C2D0"
 			}
+		},
+		{
+			"name": "Markup list",
+			"scope": [
+				"markup.list"
+			],
+			"settings": {
+				"foreground": "#A8A1B3"
+			}
+		},
+		{
+			"name": "Markup separators",
+			"scope": [
+				"meta.separator.markdown"
+			],
+			"settings": {
+				"foreground": "#999"
+			}
+		},
+		{
+			"name": "Markup blockquote",
+			"scope": [
+				"punctuation.definition.blockquote"
+			],
+			"settings": {
+				"foreground": "#bbb"
+			}
+		},
+		{
+			"name": "Markup code",
+			"scope": [
+				"punctuation.definition.raw.markdown",
+				"markup.inline.raw.string.markdown",
+			],
+			"settings": {
+				"foreground": "#8C9CAD"
+			}
+		},
+		{
+			"name": "Markup bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
 		}
 	],
 	"colors": {
 		"editor.background": "#181D20",
 		"editorCursor.foreground": "#F8F8F0",
-		"editor.foreground": "#BBBBBB",
+		"editor.foreground": "#CCC",
 		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#333333",
-		"editor.selectionBackground": "#333333",
-		"statusBar.background": "#111111", 
-		"statusBar.noFolderBackground": "#111111",
-		"statusBar.foreground": "#999999",
-		"statusBarItem.hoverBackground": "#222222",
+		"editor.lineHighlightBackground": "#22292e48",
+		"editor.selectionBackground": "#6e6e6e46",
+		"statusBar.background": "#111", 
+		"statusBar.noFolderBackground": "#111",
+		"statusBar.foreground": "#999",
+		"statusBarItem.hoverBackground": "#222",
 		"editorIndentGuide.background": "#35353580",
 	},
 	"name": "Monokai Neo"
