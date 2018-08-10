@@ -20,5 +20,13 @@
 * Added: New preview images
 * Fixed: some Markdown scope missing
  
+## Version 0.0.6
 
+* Fixed: some PHP scope missing
+
+## Version 0.0.7
+
+* Fixed: some CSS scope missing
+* Added: jsdoc color scope
+* Changed: line Highlight Background, selection Background
 
