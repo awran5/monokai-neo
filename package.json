@@ -2,7 +2,7 @@
 	"name": "monokai-neo",
 	"displayName": "Monokai Neo",
 	"description": "A new touch of Monokai Theme",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"publisher": "awran5",
 	"engines": {
 		"vscode": "^1.25.0"

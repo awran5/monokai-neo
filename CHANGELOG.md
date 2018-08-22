@@ -30,3 +30,7 @@
 * Added: jsdoc color scope
 * Changed: line Highlight Background, selection Background
 
+## Version 0.0.8
+
+* Fixed: some Ruby scope missing
+

@@ -48,7 +48,8 @@
 			"name": "User-defined constant",
 			"scope": [
 				"constant.character",
-				"constant.other"
+				"constant.other",
+				"variable.other.constant.ruby"
 			],
 			"settings": {
 				"foreground": "#9C88BD"
@@ -182,7 +183,8 @@
 		{
 			"name": "Support function funchand",
 			"scope": [
-				"support.function.funchand"
+				"support.function.funchand",
+				"entity.name.function.ruby"
 			],
 			"settings": {
 				"foreground": "#75c2d0"
