@@ -34,8 +34,11 @@
 
 * Fixed: some Ruby scope missing
 
+<<<<<<< HEAD
 ## Version 0.0.9
 
 * Added: some CSS scope missing
 * Added: jsdoc scope missing
 
+=======
+>>>>>>> c1e5168d5d1de26631bf0c0c554d7485197e57e6
