@@ -48,7 +48,8 @@
 			"name": "User-defined constant",
 			"scope": [
 				"constant.character",
-				"constant.other"
+				"constant.other",
+				"variable.other.constant.ruby"
 			],
 			"settings": {
 				"foreground": "#9C88BD"
@@ -115,7 +116,7 @@
 				"fontStyle": "",
 				"foreground": "#a4b551"
 			}
-		},
+		}, 
 		{
 			"name": "Inherited class",
 			"scope": [
@@ -131,7 +132,8 @@
 			"name": "Function name",
 			"scope": [
 				"meta.definition.function",
-				"meta.function.php"
+				"meta.function.php",
+				"meta.definition.method"
 			],
 			"settings": {
 				"foreground": "#a4b551"
@@ -164,6 +166,27 @@
 			}
 		},
 		{
+			"name": "Entity CSS pseudo",
+			"scope": "entity.other.attribute-name.pseudo-class",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#BA3E70"
+			}
+		},
+		{
+			"name": "Support CSS constant / transform",
+			"scope": [
+				"support.constant.property-value",
+				"support.function.transform.css"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9C88BD"
+			}
+		},
+
+
+		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
@@ -172,9 +195,7 @@
 		},
 		{
 			"name": "Support function",
-			"scope": [
-				"support.function"
-			],
+			"scope": "support.function",
 			"settings": {
 				"foreground": "#6693BD"
 			}
@@ -182,7 +203,8 @@
 		{
 			"name": "Support function funchand",
 			"scope": [
-				"support.function.funchand"
+				"support.function.funchand",
+				"entity.name.function.ruby"
 			],
 			"settings": {
 				"foreground": "#75c2d0"
@@ -253,7 +275,8 @@
 				"punctuation.definition",
 				"punctuation.separator.delimiter",
 				"punctuation.section",
-				"punctuation.accessor"
+				"punctuation.accessor",
+				"meta.brace.round"
 			],
 			"settings": {
 				"foreground": "#CCC"

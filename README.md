@@ -14,10 +14,6 @@
 
 ***
 
-## What's new?
-
-Check theme [Changelog](https://github.com/awran5/monokai-neo/blob/master/CHANGELOG.md)
-
 ## License
 
 This theme is released under the [MIT License](https://github.com/awran5/monokai-neo/blob/master/LICENSE).
